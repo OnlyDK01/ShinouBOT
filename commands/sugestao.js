@@ -20,7 +20,7 @@ const embed = new Discord.MessageEmbed()
 .setFooter(`Executado por ${message.author.tag}`, message.author.displayAvatarURL())
 .setTimestamp()
 
-let user = client.users.cache.get("437793544141406209")
+let user = client.users.cache.get("SEU ID AQUI")
 
 user.send(embed)
 
