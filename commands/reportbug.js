@@ -18,7 +18,7 @@ const embed = new Discord.MessageEmbed()
         .setThumbnail(`${message.author.displayAvatarURL({ dynamic: true})}`)
 .setColor("PURPLE")
 
-let user = client.users.cache.get("437793544141406209")
+let user = client.users.cache.get("SEU ID AQUI")
 
 user.send(embed)
 
